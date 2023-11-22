@@ -1,0 +1,23 @@
+ul{
+    list-style-type: none;
+    margin: 20;
+    padding: 1;
+    overflow: hidden;
+    background-color: cornsilk;
+    }
+li {
+    float: inline-end;
+}
+li a {
+    display: block;
+    color: burlywood;
+    text-align: center;
+    padding: 18px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: solid;
+    font-size: 26px;
+}
+li a :hover {
+    background-color: aqua;
+}
+
