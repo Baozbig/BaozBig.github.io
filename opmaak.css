@@ -3,14 +3,14 @@ ul{
     margin: 20;
     padding: 1;
     overflow: hidden;
-    background-color: cornsilk;
+    background-color: rgb(98, 163, 248))
     }
 li {
     float: inline-end;
 }
 li a {
     display: block;
-    color: burlywood;
+    color: rgb(70, 145, 243);
     text-align: center;
     padding: 18px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
