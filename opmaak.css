@@ -12,10 +12,10 @@ li a {
     display: block;
     color: rgb(70, 145, 243);
     text-align: center;
-    padding: 18px 20px;
+    padding: 28px 32px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: solid;
-    font-size: 26px;
+    font-size: 40px;
 }
 li a :hover {
     background-color: aqua;
