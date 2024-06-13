@@ -20,4 +20,8 @@ li a {
 li a :hover {
     background-color: aqua;
 }
+h1 {
+    color: black;
+    text-align: center;
+}
 
