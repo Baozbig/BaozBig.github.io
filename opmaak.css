@@ -6,22 +6,19 @@ ul{
     background-color: #4691f3
     }
 li {
-    float: inline-end;
+    float: left;
 }
 li a {
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 28px 32px;
+    padding: 24px 32px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: solid;
     font-size: 40px;
 }
-li a :hover {
-    background-color: aqua;
+li a:hover {
+    color: rgb(29, 32, 32);
+    font-size: 30px;
 }
-h1 {
-    color: black;
-    text-align: center;
-}
-
+ 
