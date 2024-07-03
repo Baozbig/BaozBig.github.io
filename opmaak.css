@@ -1,21 +1,21 @@
-ul{
+ul{ /*De opmaak staat centraal voor alle andere bestanden, ze kunnen hieruit de opmaak dus gebruiken*/
     list-style-type: none;
     margin: 20;
     padding: 1;
     overflow: hidden;
-    background-color: #4691f3
+    background-color: #4691f3 /*dit is voor als ik een stuk text wil markeren in het blauw*/
     }
 ul2{
     list-style-type: none;
     margin: 20;
     padding: 1;
     overflow: hidden;
-    background-color: #a9aaaa
+    background-color: #a9aaaa /*Dit is voor als ik een stuk text wil markeren in het grijs*/
     }
 li {
-    float: left;
+    float: left;    /*Zodat de text links komt*/
 }
-li a {
+li a {    /*Dit*/
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
