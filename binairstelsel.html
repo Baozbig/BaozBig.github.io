@@ -1,7 +1,7 @@
 <!DOCTYPE html> <!--dit is het binairstelsel van mijn site-->
 <html> <!--dit is het html-element-->
     <head>
-        <title>Uitleg van Binaire Stelsel</title>
+        <title>Uitleg van Binaire Stelsel</title> <!--De titel die je kan zien bij het tabje dat openstaat-->
         <link rel="stylesheet" type="text/css" href="opmaak.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -9,7 +9,7 @@
     </head>
     <style>
         body {
-          background-color: rgb(164, 200, 250);
+          background-color: rgb(164, 200, 250) /*Achtergrondkleur*/
         }
          
     </style>
@@ -17,23 +17,23 @@
     <body>
 
     <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>  <!--Dit is weer een lijst van webpaginas waar je tussen kan navigeren-->
         <li><a href="binairstelsel.html">Binair stelsel</a></li>
         <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
         <li><a href="werkingcomputer.html">Werking Computer</a></li>
     </ul>
 
-        <h1>Wat is het Binaire Stelsel?</h1>
-        <p>Het binaire stelsel is een manier om getallen voor te stellen.<br>
+        <h1>Wat is het Binaire Stelsel?</h1>    <!--Hoofdtext met h1 uit opmaak-->
+        <p>Het binaire stelsel is een manier om getallen voor te stellen.<br> <!--uitleg met telkens br zodat er een nieuwe lijn aan text word aangemaakt-->
         In plaats van het gebruikelijke decimale stelsel, dat we dagelijks gebruiken en dat bestaat uit de cijfers 0 tot en met 9,<br>
         gebruikt het binaire stelsel slechts twee cijfers: 0 en 1.</p>
 
-        <img src="binairstelsel.jpg" style="float:right;width:520px;height:420px" alt="Binair Stelsel!">
+        <img src="binairstelsel.jpg" style="float:right;width:520px;height:420px" alt="Binair Stelsel!">    <!--een foto over het binaire stelsel met width en height zodat ik de grootte van de foto kon aanpassen en float;right zodat de foto rechts op mijn webpagina kwam-->
     
         <h2>Hoe werkt het?</h2>
-        <p>In het binaire stelsel wordt elk cijfer een 'bit' genoemd. Elk bit is eigenlijk gewoon een macht van 2, te beginnen van rechts naar links.</p>
+        <p>In het binaire stelsel wordt elk cijfer een 'bit' genoemd. Elk bit is eigenlijk gewoon een macht van 2, te beginnen van rechts naar links.
         
-        De rechterbit is 2<sup>0</sup> waard (dat is 1)<br>
+        De rechterbit is 2<sup>0</sup> waard (dat is 1)<br> <!--Ik gebruik hier telkens <sup>, dit is zodat het cijfertje op het plekje komt van een kwadraat-->
         De volgende bit naar links is 2<sup>1</sup> waard (dat is 2)<br>
         De bit daarna is 2<sup>2</sup> waard (dat is 4)<br>
         En zo door totdat je het getal weet!<br>
@@ -42,7 +42,7 @@
         <h2>Een Voorbeeld</h2>
         <p>Neem het binaire getal <strong>1011</strong>. Om dit om te zetten naar een decimaal getal, doen we het volgende:</p>
         <ul>
-            1 x 2<sup>3</sup> = 1 x 8 = 8<br>
+            1 x 2<sup>3</sup> = 1 x 8 = 8<br> <!--Meer uitleg waarbij ik gebruik maak van <sup> en <br> om het mooi op te maken-->
             0 x 2<sup>2</sup> = 0 x 4 = 0<br>
             1 x 2<sup>1</sup> = 1 x 2 = 2<br>
             1 x 2<sup>0</sup> = 1 x 1 = 1<br>
@@ -50,11 +50,11 @@
         <p>Tel deze waardes bij elkaar op: 8 + 0 + 2 + 1 = <strong>11</strong>.<br>
         Dus het binaire getal 1011 is gelijk aan het decimale getal 11.</p>
     
-        <h2>Waarom Gebruiken We Het?</h2>
+        <h2>Waarom Gebruiken We Het?</h2> <!--conclusie waarvoor h2 word gebruikt uit de opmaak-->
         <p>Computers gebruiken het binaire stelsel omdat het eenvoudiger is voor ze om maar 2 dingen te hoeven onderscheiden: aan (1) en uit (0).<br> 
         Dit maakt het dus eigenlijk mogelijk om informatie sneller en betrouwbaar te verwerken en om deze informatie op te slaan😃.</p><br>
         
-        <p>Hier een leuk spel om je nieuwe kennis over het binaire stelsel te testen:<br></p>
+        <p>Hier een leuk spel om je nieuwe kennis over het binaire stelsel te testen:<br></p> <!--Een spel wat ik heb toegevoegd aan de site waarbij ik gebruik maak van iframe-->
         <iframe src="https://games.penjee.com/binary-bonanza/game.php" width="700" height="500" frameborder="no" scrolling="no" ></iframe>
 
     </body>
